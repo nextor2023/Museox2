@@ -6,12 +6,12 @@ using UnityEngine;
 public class PlayerMovemt : MonoBehaviour
 {
     [Header("Movimiento")]
-    public float moveSpeed = 5f;
+    public float moveSpeed = 3f;
    // public float jumpForce = 7f;
 
     [Header("Cámara")]
     public Transform cameraTransform;
-    public float mouseSensitivity = 100f;
+    public float mouseSensitivity = 60;
     public float cameraPitchLimit = 80f;
 
     private Rigidbody rb;
