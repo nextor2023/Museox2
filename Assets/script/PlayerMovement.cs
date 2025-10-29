@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovemt : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     [Header("Movimiento")]
     public float moveSpeed = 3f;
@@ -11,7 +11,7 @@ public class PlayerMovemt : MonoBehaviour
 
     [Header("Cámara")]
     public Transform cameraTransform;
-    public float mouseSensitivity = 60;
+    public float mouseSensitivity = 100f;
     public float cameraPitchLimit = 80f;
 
     private Rigidbody rb;
@@ -30,7 +30,7 @@ public class PlayerMovemt : MonoBehaviour
         MoverJugador();
         RotarCamara();
       //  Saltar();
-      Cursor.lockState = CursorLockMode.Locked;
+      
     }
 
     void MoverJugador()

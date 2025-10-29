@@ -5,7 +5,7 @@ public class SystemDetection : MonoBehaviour
 {
     [Header("Raycast Settings")]
     public Transform rayOrigin;
-    public float distance = 5f;
+    public float distance = 2f;
     public float offset = 0f;
     public LayerMask interActiveLayer;
 
